@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="MainScene" extends="Scene">
     <script type="text/brightscript" uri="MainScene.brs" />
-    <script type="text/brightscript" uri="UILogic/ScreenStackLogic.BRS" />
-    <script type="text/brightscript" uri="UILogic/ContentTaskLogic.BRS" />
-    <script type="text/brightscript" uri="UILogic/GridScreenLogic.BRS" />
+    <script type="text/brightscript" uri="UILogic/ScreenStackLogic.brs" />
+    <script type="text/brightscript" uri="UILogic/ContentTaskLogic.brs" />
+    <script type="text/brightscript" uri="UILogic/GridScreenLogic.brs" />
     <children>
          <!-- Overhang with Roku Developers Logo -->
          <Overhang

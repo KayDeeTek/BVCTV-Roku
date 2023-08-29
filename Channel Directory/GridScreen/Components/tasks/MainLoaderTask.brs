@@ -17,10 +17,10 @@ sub GetContent()
     json = ParseJson (rsp)
     if json <> invalid
         for each category in json
-            valve = json.Lookup(category)
+            value = json.Lookup(category)
             if Type(value) = "roArray" ' if parsed key value having other objects in it 
                 if category <> "series" ' ignore series for this phrase
-                    rows = {}
+                    row = {}
                     row.title = category
                     row.children = []
                     for each item in value ' parse items amd push them to row
